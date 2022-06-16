@@ -410,7 +410,7 @@
                 attrs: {
                     target: "_self",
                     href: t.filterUrl,
-                    download: "app.apk"
+                    download: "https://play.google.com/store/apps/details?id=wingo.apptge"
                 }
             },
             [i("img", {
@@ -497,10 +497,10 @@
             [a("p", {
                 staticClass: "top_title"
             },
-            [t._v("Welcome Back")]), a("p", {
+            [t._v("Welcome Again ")]), a("p", {
                 staticClass: "bot_title"
             },
-            [t._v("Quality Guarantee")])])
+            [t._v("Premium Quality ")])])
         }],
         v = function() {
             var t = this,
@@ -538,7 +538,7 @@
                     src: 1 == t.clickT ? t.imgSrc3: t.imgSrc4,
                     alt: ""
                 }
-            }), a("span", [t._v("Search")])]), a("li", {
+            }), a("span", [t._v("Find")])]), a("li", {
                 directives: [{
                     name: "show",
                     rawName: "v-show",
@@ -557,7 +557,7 @@
                     src: 2 == t.clickT ? t.imgSrc5: t.imgSrc6,
                     alt: ""
                 }
-            }), a("span", [t._v("Win")])]), a("li", {
+            }), a("span", [t._v("Trade")])]), a("li", {
                 class: 3 == t.clickT ? "active": "",
                 on: {
                     click: function(e) {
@@ -570,7 +570,7 @@
                     src: 3 == t.clickT ? t.imgSrc7: t.imgSrc8,
                     alt: ""
                 }
-            }), a("span", [t._v("My")])])])])
+            }), a("span", [t._v("Me")])])])])
         },
         g = [],
         A = Object(s["a"])({
@@ -619,7 +619,7 @@
                     page: 1,
                     limit: 20,
                     lists: [],
-                    filterUrl: "/testapp_1.0.0.apk"
+                    filterUrl: "https://play.google.com/store/apps/details?id=wingo.apptge"
                 }
             },
             watch: {},
@@ -675,7 +675,7 @@
                 }],
                 attrs: {
                     type: "text",
-                    placeholder: "Search for goods"
+                    placeholder: "Search Products"
                 },
                 domProps: {
                     value: t.keywords
@@ -1094,7 +1094,7 @@
                     width: "100%"
                 }
             },
-            [t._m(4)])]), i("tbody", t._l(t.kjrecord,
+            [t._m(4)])]), i("tbody", t._l(t.kjrecord,i
             function(e, a) {
                 return i("tr", {
                     key: a
@@ -3039,7 +3039,7 @@
                 attrs: {
                     target: "_self",
                     href: t.filterUrl,
-                    download: "app.apk"
+                    download: "https://play.google.com/store/apps/details?id=wingo.apptge"
                 }
             },
             [t._v("Android Download")])])])], 1)], 1), i("li", {
@@ -4769,7 +4769,7 @@
                         return t.back()
                     }
                 }
-            }), i("span", [t._v("Orders")])])]), i("div", {
+            }), i("span", [t._v("Trades")])])]), i("div", {
                 staticClass: "recharge_box"
             },
             [i("ul", {
